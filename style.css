@@ -1,0 +1,198 @@
+
+
+body {
+  font-family: Lato;
+  background-color: white;
+  color: black;
+  
+}
+
+header {
+ font-size: 2rem;
+ text-align: center;
+ text-decoration: wavy blue underline 3px;
+ margin: 3rem;
+}
+
+.intro {
+  font-size: 1.4rem;
+  text-align: left;
+  line-height: 2.8rem;
+  width: 50%;
+  margin: 4rem auto;
+}
+
+.tooltip {
+  display: inline-block;
+  position: relative;
+  border-bottom: 0.1rem solid blue;
+  cursor: help;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 15rem;
+  font-size: 0.7rem;
+  line-height: 1rem;
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+form {
+  width: 40%;
+  margin: 0 auto;
+}
+
+
+
+
+.field1, .field2 {
+  color: black;
+  font-weight: bold;
+  margin: 2rem auto; 
+  display: flex;
+ 
+}
+ .calculator {
+  display: block;
+  margin: 0 auto;
+  float: none;
+  }
+ 
+  
+ label {
+
+  font-size: 1.2rem;
+  letter-spacing: 0.04rem;
+   width: 11rem;
+}
+
+
+input {
+  font-size: 1.2rem;
+  border: 0.1rem black solid;
+  width: 11rem; 
+}
+
+button {
+  display: block;
+  background-color: blue;
+  margin: 3rem auto;
+  font-family: "Lato";
+  font-weight: bold;
+  padding: 0.8rem 3rem;
+  color: white;
+  font-size: 1.3rem;
+  box-shadow: 3px 3px black;
+}
+
+button:hover {
+  background-color: #000080;
+}
+
+.result {
+ background-color: blue;
+ color: white;
+ padding: 2rem 1rem 8rem;
+ text-align: center;
+ line-height: 3rem;
+ width: 100%;
+}
+
+
+#data-output {
+  display: block;
+  font-size: 1.5rem;
+  float: center;
+  margin: 1rem auto;
+
+}
+
+#output {
+  display: block;
+  margin: 1rem auto;
+  float: center;
+  font-size: 2rem;
+  padding-top: 3rem;
+}
+
+.highlight {
+  background-color: yellow;
+  color: blue;
+  padding: 0.4rem 0.4rem;
+  border: 4px black solid;
+}
+
+
+/*Make responsive on mobile*/
+
+@media screen and (max-width: 600px) {
+ 
+  
+  header {
+    font-size: 0.9rem;
+    margin-top: 1rem auto;
+    
+    
+  }
+ 
+  .intro {
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin: 2.3rem auto; 
+    width: 80%;
+    
+  }
+  
+  .field1, .field2 {
+   margin: 1rem auto;
+    
+  }
+  
+  form {
+    width: 80%;
+  }
+  
+  label {
+    font-size: 1rem;
+  }
+ 
+  input {
+width: 100%;
+  }
+  
+  button {
+    margin-top: 2rem;  
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+  }
+
+#output {
+    font-size: 1.5rem;
+}
+
+#data-output {
+  font-size: 1rem;
+    }
+  
+  .result {
+    line-height: 2rem;
+     }
+  
+  .tooltip .tooltiptext {
+    width: 120%;
+    margin: 1rem auto;
+ }
+  
+  }
+  
+}
