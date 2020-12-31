@@ -202,9 +202,10 @@ width: 100%;
   .tooltip .tooltiptext {
     width: 120%;
     margin: 1rem auto;
+    visibility: hidden;
  }
   
-  .tooltip:hover .tooltip:active .tooltiptext {
+  .tooltip:hover .tooltip:focus .tooltiptext {
     visibility: visible;
   }
   
