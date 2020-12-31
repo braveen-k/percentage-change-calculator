@@ -137,14 +137,6 @@ button:hover {
 
 @media only screen and (max-width: 600px) {
  
-  body {
-  font-family: Lato;
-  background-color: white;
-  color: black;
-  
-}
-
-
   
   header {
     font-size: 0.9rem;
