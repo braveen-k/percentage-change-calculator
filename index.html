@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+<body>
+  <header>
+  <h1>Percentage Change Calculator</h1>
+  </header>
+  <section class="intro">
+    <p>Forget how to calculate the <span class ="tooltip">percentage change<span class="tooltiptext">First, work out the decrease between the two numbers you are comparing. Next, divide that by the original number and multiply it by 100. If the answer is negative, it's a percentage increase.<br><br> Or just use this calculator.</span></span> between two numbers? Don't have a napkin for back-of-the-napkin math? Use this calculator instead to quickly find the percentage increase or decrease between any two numbers.</p>    
+  </section>
+<section>
+ <div class="calculator">
+  <form>
+    <div class ="field1">
+    <label>Before number:</label>
+    <input id="my-form" type="text">
+  </div>
+  <div class ="field2">
+    <label>After number:</label>
+    <input id="my-form2" type="text">
+  </div>
+  <div class ="submit-button">
+    <button id="do-math" type="button" onclick="handleClick()">Do the math!</button>
+  </div>
+  </form>
+  </div>
+  </section>
+<section class="result">
+  <h3 id="output">Percent change:</h3>
+  <p id="data-output"></p>
+  </section>
+</body>
+
+</html>
