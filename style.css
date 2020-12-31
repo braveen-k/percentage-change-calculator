@@ -137,10 +137,21 @@ button:hover {
 
 @media screen and (max-width: 600px) {
  
+  body {
+  font-family: Lato;
+  background-color: white;
+  color: black;
+  
+}
+
+
   
   header {
     font-size: 0.9rem;
     margin-top: 1rem auto;
+    text-align: center;
+    text-decoration: wavy blue underline 3px;
+    margin: 3rem;
     
     
   }
@@ -193,6 +204,9 @@ width: 100%;
     margin: 1rem auto;
  }
   
+  .tooltip:hover .tooltip:active .tooltiptext {
+    visibility: visible;
   }
   
-}
+  }
+  
