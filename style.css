@@ -1,7 +1,7 @@
 
 
 body {
-  font-family: Lato;
+  font-family: 'Lato', sans-serif;
   background-color: white;
   color: black;
   
@@ -12,6 +12,7 @@ header {
  text-align: center;
  text-decoration: wavy blue underline 3px;
  margin: 3rem auto;
+  
 }
 
 .intro {
