@@ -193,7 +193,7 @@ width: 100%;
     visibility: hidden;
  }
   
-  .tooltip:hover .tooltip:focus .tooltiptext {
+  .tooltip:hover .tooltip:active .tooltiptext {
     visibility: visible;
   }
   
