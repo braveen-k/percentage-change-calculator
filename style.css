@@ -142,7 +142,7 @@ button:hover {
   header {
     font-size: 0.9rem;
     margin-top: 1rem auto;
-    webkit-text-decoration: wavy blue underline 3px;
+    -webkit-text-decoration: wavy blue underline 3px;
     
   }
  
