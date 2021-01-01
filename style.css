@@ -11,7 +11,7 @@ header {
  font-size: 2rem;
  text-align: center;
  text-decoration: wavy blue underline 3px;
- margin: 3rem;
+ margin: 3rem auto;
 }
 
 .intro {
@@ -140,11 +140,7 @@ button:hover {
   
   header {
     font-size: 0.9rem;
-    margin-top: 1rem auto;
-    text-align: center;
-    text-decoration: wavy blue underline 3px;
-    margin: 3rem;
-    
+    margin-top: 1rem auto;   
     
   }
  
